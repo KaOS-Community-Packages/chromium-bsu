@@ -15,4 +15,4 @@ kcp -i freealut --asdeps
 kcp -i chromium-bsu
 ```
 
-![Screenshot](http://a.fsdn.com/con/app/proj/chromium-bsu/screenshots/123939.jpg)
+![Screenshot](http://chromium-bsu.sourceforge.net/images/annotated.jpg)
