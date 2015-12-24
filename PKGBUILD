@@ -1,7 +1,7 @@
 
 pkgname=chromium-bsu
 pkgver=0.9.15.1
-pkgrel=2
+pkgrel=1
 pkgdesc="A fast paced top scrolling shooter"
 arch=('x86_64')
 url="http://chromium-bsu.sourceforge.net/"
