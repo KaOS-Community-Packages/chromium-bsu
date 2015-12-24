@@ -22,7 +22,7 @@ build(){
 package() {
   cd "${srcdir}/${pkgname}-${pkgver}"
   make DESTDIR="${pkgdir}" install
-  #add Alien Texture pack 
+  #add Alien Texture Pack 
   cp -R "${srcdir}"/chromium-bsu-pack-master/png "${pkgdir}"/usr/share/${pkgname}
   install -Dm644 COPYING "${pkgdir}"/usr/share/licenses/chromium-bsu/LICENSE
 }
