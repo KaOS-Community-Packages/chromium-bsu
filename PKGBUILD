@@ -24,7 +24,5 @@ package() {
   make DESTDIR="${pkgdir}" install
   #add Alien Texture pack 
   cp -R "${srcdir}"/chromium-bsu-pack-master/png "${pkgdir}"/usr/share/${pkgname}
-  #add language pack
-  cp -R "${srcdir}"/chromium-bsu-pack-master/locale "${pkgdir}"/usr/share/locale
   install -Dm644 COPYING "${pkgdir}"/usr/share/licenses/chromium-bsu/LICENSE
 }
