@@ -1,6 +1,6 @@
 
 pkgname=chromium-bsu
-pkgver=0.9.15.1
+pkgver=0.9.16.1
 pkgrel=1
 pkgdesc="A fast paced top scrolling shooter"
 arch=('x86_64')
@@ -10,7 +10,7 @@ depends=('freeglut' 'glu' 'sdl_image' 'openal' 'freealut' 'ftgl' 'fontconfig')
 install=chromium-bsu.install
 source=("http://downloads.sourceforge.net/project/chromium-bsu/Chromium%20B.S.U.%20source%20code/chromium-bsu-${pkgver}.tar.gz"
         "https://github.com/Gabrielgtx/chromium-bsu-pack/archive/master.zip")
-md5sums=('bd332a890ae9e5115f2808198a51a92b'
+md5sums=('acc28b2b46567e4a2946031005155a43'
          'SKIP')
 
 build(){
